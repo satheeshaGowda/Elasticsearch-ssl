@@ -1,1 +1,16 @@
 https://www.elastic.co/guide/en/shield/current/certificate-authority.html#sign-csr
+https://www.elastic.co/guide/en/shield/current/shield-settings.html#ref-ssl-tls-settings
+
+shield.ssl.keystore.path:          /home/es/config/shield/node01.jks 
+shield.ssl.keystore.password:      myPass 
+shield.ssl.keystore.key_password:  myKeyPass
+shield.transport.ssl: true
+shield.http.ssl: true
+shield.ssl.truststore.path:          /home/es/config/shield/truststore.jks 
+shield.ssl.truststore.password:      myPass
+
+shield.ssl.hostname_verification: false
+shield.ssl.hostname_verification.resolve_name: false
+
+shield.transport.ssl.client.auth:  required
+shield.http.ssl.client.auth: required
