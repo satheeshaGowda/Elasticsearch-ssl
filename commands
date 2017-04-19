@@ -14,3 +14,8 @@ shield.ssl.hostname_verification.resolve_name: false
 
 shield.transport.ssl.client.auth:  required
 shield.http.ssl.client.auth: required
+
+
+https://www.elastic.co/guide/en/x-pack/current/ssl-tls.html
+https://www.elastic.co/guide/en/x-pack/current/ssl-tls.html
+https://www.elastic.co/guide/en/x-pack/current/security-settings.html
