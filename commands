@@ -19,3 +19,20 @@ shield.http.ssl.client.auth: required
 https://www.elastic.co/guide/en/x-pack/current/ssl-tls.html
 https://www.elastic.co/guide/en/x-pack/current/ssl-tls.html
 https://www.elastic.co/guide/en/x-pack/current/security-settings.html
+
+       xpack.security.enabled: true
+        xpack.ssl.verification_mode: none
+        xpack.security.http.ssl.enabled:  true
+        xpack.security.http.ssl.client_authentication: optional
+        xpack.security.http.ssl.keystore.path: /etc/elasticsearch/xpack/keystore.jks}
+        xpack.security.http.ssl.keystore.password: Y291c3RlYXUK
+        xpack.security.http.ssl.keystore.key_password: Y291c3RlYXUK
+        xpack.security.http.ssl.truststore.path:  /etc/elasticsearch/xpack/truststore.jks
+        xpack.security.http.ssl.truststore.password: Y291c3RlYXUK
+        xpack.security.transport.ssl.enabled: true
+        xpack.security.transport.ssl.client_authentication: optional
+        xpack.security.transport.ssl.keystore.path: /etc/elasticsearch/xpack/keystore.jks
+        xpack.security.transport.ssl.keystore.password: Y291c3RlYXUK
+        xpack.security.transport.ssl.keystore.key_password: Y291c3RlYXUK
+        xpack.security.transport.ssl.truststore.path: /etc/elasticsearch/xpack/truststore.jks
+        xpack.security.transport.ssl.truststore.password: Y291c3RlYXUK
